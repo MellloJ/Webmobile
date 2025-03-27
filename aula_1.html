@@ -5,67 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </head>
 <body>
+    <div class="container">
 
-    <div class="container-center">
-        <div class="center">
-            <h1>Cabeçalho h1</h1>
-
-            <p>Primeiro parágrafo</p>
-
-            <img src="img/Search Results.png" alt="Minha imagem">
-
-            <a href="https://www.uft.edu.br" target="_blank" rel="noopener noreferrer">
-                Acesse o site da UFT!
-            </a>
+        <div class="nav w-100 d-flex justify-content-between" style="background-color: rgb(80, 82, 189);">
+            <ul class="nav">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
         </div>
+        <div class="container d-flex justify-content-center align-items-center" style="height: 100dvh; flex-direction: column;">
 
-        <div class="listas">
-            <div class="center">
-                <h1>Listas Não Ordenadas</h1>
-    
-                <ul>
-                    <li>Item 1</li>
-                    <li>Item 2</li>
-                    <li>Item 3</li>
-                </ul>
+            
+
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                <div class="carousel-item active" style="height: 60dvh;">
+                    <img src="img/pexels-thisisengineering-3913025.jpg" class="d-block img-fluid w-100" alt="..." style="object-fit: cover;">
+                </div>
+                <div class="carousel-item" style="height: 60dvh;">
+                    <img src="img/pexels-markusspiske-1089438.jpg" class="d-block w-100" alt="..." style="object-fit: cover;">
+                </div>
+                <div class="carousel-item" style="height: 60dvh;">
+                    <img src="img/pexels-myleskuo-2399840.jpg" class="d-block w-100" alt="..." style="object-fit: cover;">
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
             </div>
 
-            <div class="center">
-                <h1>Listas Ordenadas</h1>
-    
-                <ol>
-                    <li>Item 1</li>
-                    <li>Item 2</li>
-                    <li>Item 3</li>
-                </ol>
-            </div>
         </div>
-
-        <div class="tabela">
-            <table>
-                <caption>Descrição da Tabela</caption>
-
-                <thead>
-                    <th>Coluna 1</th>
-                    <th>Coluna 2</th>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Linha 1 - Coluna 1</td>
-                        <td>Linha 2 - Coluna 2</td>
-                    </tr>
-                    <tr>
-                        <td>Linha 1 - Coluna 1</td>
-                        <td>Linha 2 - Coluna 2</td>
-                    </tr>
-                </tbody>
-
-            </table>
-        </div>
-        
     </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </body>
 </html>
