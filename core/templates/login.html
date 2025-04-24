@@ -14,7 +14,7 @@
 <body>
 
     <div class="d-flex" id="login-container">
-        <div class="card p-5" id="login-card">
+        <div class="card p-5 shadow rounded" id="login-card" style="margin: 0 auto;">
             {% if error %}
                 <div class="alert alert-warning" role="alert">
                     {{ error }}
@@ -43,7 +43,7 @@
                         </div>
                         <div class="d-grid gap-2">
                             <button type="submit" class="btn btn-primary">Entrar</button>
-                            <a href="logout/" class="btn btn-secondary">Deslogar</a>
+                            <a href="{% url 'logout' %}" class="btn btn-secondary">Deslogar</a>
                         </div>
                     </form>
                 </div>
