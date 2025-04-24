@@ -13,6 +13,7 @@
     height: 100vh;
     flex-direction: row;
     width: 100%;
+    background-color: #124D05;
     /* justify-content: space-between; */
 }
 
